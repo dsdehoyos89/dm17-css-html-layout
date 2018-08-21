@@ -1,0 +1,75 @@
+body {
+    background-color: blue;
+}
+
+
+
+.design {
+    display:flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    
+}
+
+.logo {
+    
+    font-size: 10px;
+    display: flex;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 40%;
+    color: whitesmoke;
+    
+}
+
+.centerContent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.rot{
+    -webkit-transform: rotate(-90deg); 
+     position: fixed;
+     bottom: 0;
+     left:0;  
+     width:50x;
+}
+
+.top {
+    text-align: center;
+}
+
+
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;  
+}
+
+.lilCirc {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:40px;
+    height:40px;
+    border-radius:50px;
+    border: 3px white;
+    line-height:100px;
+    text-align:center;
+    background:#000
+}
+
+
+
+.nav-link {
+    cursor: pointer;
+}
